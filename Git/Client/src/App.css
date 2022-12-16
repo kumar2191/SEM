@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: aqua;
+}
+label {
+  color: violet;
+}
+h1 {
+  transition: 0.5s;
+}
+span {
+  color: black;
+}
+h1:hover {
+  color: orange;
+}
+option {
+  background-color: aquamarine;
+}
+input {
+  width: 150px;
+  height: 20px;
+  border-radius: 50px;
+  border: double 10px orange;
+  border-radius: 20px;
+  color: red;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+input:hover {
+  width: 170px;
+  height: 25px;
+  background-color: wheat;
+}
+select {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+select:hover {
+  background-color: salmon;
+}
+
+.btn {
+  background-color: red;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+.btn:hover {
+  background-color: orange;
+  width: 170px;
+  height: 60px;
+  border-radius: 30px;
+}
